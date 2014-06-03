@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="5041ae3c-a0e3-459d-8978-e701fea8a1bc" ChangeDateTime="06/03/2014 21:35:56">
+    <Property Name="ElementName" Value="[dbo].[FK_ALB_TABELA_TESTE_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[ALB_TABELA_TESTE]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_ALB_TABELA_TESTE_ToAlb_Cliente]" />
+  </Operation>
+</Operations>

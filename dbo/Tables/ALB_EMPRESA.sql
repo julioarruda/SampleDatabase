@@ -1,0 +1,12 @@
+﻿CREATE TABLE [dbo].[ALB_EMPRESA] (
+    [NR_ID_EMPRESA]   INT          NOT NULL,
+    [VC_RAZAO_SOCIAL] VARCHAR (50) NULL,
+    [VC_CNPJ]         VARCHAR (14) NULL,
+    [VC_IE]           VARCHAR (20) NULL,
+    [VC_CEP]          VARCHAR (8)  NULL,
+    [VC_ENDERECO]     VARCHAR (50) NULL,
+    [VC_NUMERO]       VARCHAR (50) NULL,
+    [VC_BAIRRO]       VARCHAR (50) NULL,
+    PRIMARY KEY CLUSTERED ([NR_ID_EMPRESA] ASC)
+);
+

@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[ALB_TESTE]
+(
+	[Id] INT NOT NULL PRIMARY KEY, 
+    [descricao] VARCHAR(50) NULL
+)
